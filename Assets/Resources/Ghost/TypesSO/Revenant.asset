@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035a751c97309db4c840d995a05355bb, type: 3}
+  m_Name: Revenant
+  m_EditorClassIdentifier: 
+  GhostNormalSpeed: 2
+  GhostAttackSpeed: 1.8
+  GhostEvidences: 000000000200000005000000
+  PatrolRandomMultiplier: 5
+  StartGhostAnger: 30
+  GhostAngerPlusPerSec: 0.12
+  GhostAngerInGhostRoomPlusPerSec: 0.16
+  MaxGhostAnger: 110
+  StartLateGhostAnger: 70
+  PlayerSanityMinusPerSecond: 0.07
+  PlayerSanityMinusInGhostRoomPerSecond: 0.14
+  PlayerSanityMinusPerGhostInterection: 0.5
+  PlayerSanityMinusPerGhostGhostEvent: 4
+  PlayerSanityMinusPerHunt: 10
+  MinSanityToAttack: 60
+  MaxDistanceToPlayerAggr: 15
+  AttackChanceCoef: 0.25
+  MinAttackCD: 40
+  GhostEventChanceCoef: 0.3
+  DefaultInterectionChance: 15
+  InterectionsCoef: 0.2
+  GhostFindInerectionsCD: 2
+  GhostBetweenInterectionsCD: 4
+  ItemThrowRadiusOfInterection: 1.5
+  DoorsTouchRadiusInterection: 2.5
+  ClickableTouchRadiusInterection: 2.5
+  ItemThrowPower: 5
+  MinMeshActiveTime: 0.12
+  MaxMeshActiveTime: 0.18
+  MinMeshDisabledTime: 0.55
+  MaxMeshDisabledTime: 0.9
+  UniqueAbilities:
+  - {fileID: 5581215937328096636, guid: 141ef81e00f1fda47a92f011605fa2de, type: 3}
+  GhostDescription: 'A cruel and unpredictable ghost that slowly seeks its victims
+    and violently attacks anyone it sees.
+
+
+    Strenghts: A Revenant will travel
+    at a significantly faster speed when hunting their prey.
+
+
+    Weakness: Revenant
+    are very slow ghosts, when not chasing player'

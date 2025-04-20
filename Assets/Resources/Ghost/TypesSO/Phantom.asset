@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035a751c97309db4c840d995a05355bb, type: 3}
+  m_Name: Phantom
+  m_EditorClassIdentifier: 
+  GhostNormalSpeed: 2
+  GhostAttackSpeed: 3.3
+  GhostEvidences: 000000000300000004000000
+  PatrolRandomMultiplier: 5
+  StartGhostAnger: 30
+  GhostAngerPlusPerSec: 0.12
+  GhostAngerInGhostRoomPlusPerSec: 0.16
+  MaxGhostAnger: 110
+  StartLateGhostAnger: 70
+  PlayerSanityMinusPerSecond: 0.07
+  PlayerSanityMinusInGhostRoomPerSecond: 0.14
+  PlayerSanityMinusPerGhostInterection: 0.5
+  PlayerSanityMinusPerGhostGhostEvent: 4
+  PlayerSanityMinusPerHunt: 10
+  MinSanityToAttack: 60
+  MaxDistanceToPlayerAggr: 15
+  AttackChanceCoef: 0.25
+  MinAttackCD: 40
+  GhostEventChanceCoef: 0.3
+  DefaultInterectionChance: 15
+  InterectionsCoef: 0.2
+  GhostFindInerectionsCD: 2
+  GhostBetweenInterectionsCD: 4
+  ItemThrowRadiusOfInterection: 1.5
+  DoorsTouchRadiusInterection: 2.5
+  ClickableTouchRadiusInterection: 2.5
+  ItemThrowPower: 5
+  MinMeshActiveTime: 0.09
+  MaxMeshActiveTime: 0.14
+  MinMeshDisabledTime: 1
+  MaxMeshDisabledTime: 1.6
+  UniqueAbilities:
+  - {fileID: 3804046771150453694, guid: 584087082a134bb4783631b7da3a3cd7, type: 3}
+  GhostDescription: "Phantom are very dangerous ghosts. It is hard to see phantom
+    during the hunt and they are reall fast. Be carefull! \n\nStrengths: Phantoms
+    are faster than other ghosts \n\nWeakness: It is easy to distinguish Phantoms
+    during the hunt."

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035a751c97309db4c840d995a05355bb, type: 3}
+  m_Name: Oni
+  m_EditorClassIdentifier: 
+  GhostNormalSpeed: 2
+  GhostAttackSpeed: 2.6
+  GhostEvidences: 010000000200000004000000
+  PatrolRandomMultiplier: 5
+  StartGhostAnger: 40
+  GhostAngerPlusPerSec: 0.12
+  GhostAngerInGhostRoomPlusPerSec: 0.2
+  MaxGhostAnger: 110
+  StartLateGhostAnger: 70
+  PlayerSanityMinusPerSecond: 0.07
+  PlayerSanityMinusInGhostRoomPerSecond: 0.25
+  PlayerSanityMinusPerGhostInterection: 0.5
+  PlayerSanityMinusPerGhostGhostEvent: 4
+  PlayerSanityMinusPerHunt: 10
+  MinSanityToAttack: 60
+  MaxDistanceToPlayerAggr: 15
+  AttackChanceCoef: 0.25
+  MinAttackCD: 40
+  GhostEventChanceCoef: 0.42
+  DefaultInterectionChance: 15
+  InterectionsCoef: 0.2
+  GhostFindInerectionsCD: 2
+  GhostBetweenInterectionsCD: 4
+  ItemThrowRadiusOfInterection: 1.5
+  DoorsTouchRadiusInterection: 2.5
+  ClickableTouchRadiusInterection: 2.5
+  ItemThrowPower: 5
+  MinMeshActiveTime: 0.12
+  MaxMeshActiveTime: 0.18
+  MinMeshDisabledTime: 0.55
+  MaxMeshDisabledTime: 0.9
+  UniqueAbilities:
+  - {fileID: 7137874132321706267, guid: dc0412121970c464f8746e9c3b57cdbd, type: 3}
+  GhostDescription: 'Onis love to scare their victims as much as possible before
+    attacking. It is much more active when people are nearby
+
+
+    Strength: Onis
+    drain a lot of sanity when people are nearby, and have been seen exploding lights
+    more often
+
+
+    Weakness: Onis are very active, making them easier to find.'

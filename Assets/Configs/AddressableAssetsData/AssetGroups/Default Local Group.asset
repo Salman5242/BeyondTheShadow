@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 44786f0ba7e11374f9bfdc81c6b4c59b
+  m_SerializeEntries:
+  - m_GUID: d84e905e3f5f2b748ab07ab2e87eaf4c
+    m_Address: Hero
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2062eab6df4f9ff4399bb63d7d8d14c5
+    m_Address: Ghost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5d1593a532cd255489773deb623da110
+    m_Address: InputSystem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 42d06fe9a445c3046a4392153a299f33
+    m_Address: JumpScareUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 84b4f3494849081459740727f5e1d7ed
+    m_Address: TargetCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a9ac93fdedc08d4bb47b756a11d06e5
+    m_Address: JournalCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5c354c9a6fc43bb45812a02d1a49cb4c
+    m_Address: AudioManager
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c361927eb1f792d4ea7ae7282a21a883, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 82c7f6a2fb4f78a41bddee190e2c8a34, type: 2}
+    - {fileID: 11400000, guid: f5ccd885332afa2468a9084da77def2d, type: 2}

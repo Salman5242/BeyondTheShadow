@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de9d88d882335b49bf18fea83ec78cc, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  GameGracePeriod: 0
+  HuntSafeTime: 1.5
+  SanityWasteModifier: 2
+  HuntDurationModifier: 2
+  RewardCoef: 4
+  TimeToWarmHouse: 10000
+  InsurancePercent: 10
+  Description: 'This difficulty is for experienced players who have a relatively
+    strong foundation in the core mechanics, ghosts, and strategies needed to complete
+    the investigation.
+
+    - Longest hunting phase
+
+    - House is always cold
+
+    -
+    High sanity waste
+
+    - Big reward'
