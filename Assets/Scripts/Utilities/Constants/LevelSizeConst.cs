@@ -6,7 +6,7 @@ namespace Utilities.Constants
     public static class LevelSizeConst
     {
         public enum LevelSize { Tiny, Small, Medium, Big };
-        public enum LevelNames { Turkwood, Factory };
+        public enum LevelNames { Turkwood, Warehouse };
         public enum MapMinHuntDurationEnum
         {
             Tiny = 8,
@@ -27,7 +27,7 @@ namespace Utilities.Constants
             = new Dictionary<SceneNames.LevelNames, LevelSize>
         {
             {SceneNames.LevelNames.Turkwood, LevelSize.Tiny},
-            {SceneNames.LevelNames.Factory, LevelSize.Medium}
+            {SceneNames.LevelNames.Warehouse, LevelSize.Medium}
         };
 
         public static int MapMinHuntDuration(string levelSize)
