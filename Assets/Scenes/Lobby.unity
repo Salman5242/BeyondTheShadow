@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -24649,6 +24648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightExplosion
       objectReference: {fileID: 0}
+    - target: {fileID: 9137292171316964377, guid: 20ef144a84e367b44b16f3fdfbab8c50, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
     - target: {fileID: 9137292171316964378, guid: 20ef144a84e367b44b16f3fdfbab8c50, type: 3}
       propertyPath: looping
       value: 1
@@ -25655,7 +25658,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0479877, y: 1}
+    m_SensorSize: {x: 1, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

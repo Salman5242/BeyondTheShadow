@@ -2566,7 +2566,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 22
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!64 &210583644
 MeshCollider:
@@ -3525,7 +3525,7 @@ Transform:
   - {fileID: 247307523}
   - {fileID: 359566033}
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &285129197
 GameObject:
@@ -4801,7 +4801,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -100.051895, z: 0}
 --- !u!64 &400965521
 MeshCollider:
@@ -8163,7 +8163,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &737185095
 MeshRenderer:
@@ -10031,6 +10031,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1992712690, guid: 1454c98d85c04a04eb33aad49a1f9b64, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 47188018901105618, guid: 1454c98d85c04a04eb33aad49a1f9b64, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -32996,7 +33000,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -269.82568, z: 0}
 --- !u!64 &1124778384
 MeshCollider:
@@ -33094,7 +33098,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -90.94701, z: 0}
 --- !u!64 &1129276189
 MeshCollider:
@@ -34026,7 +34030,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!64 &1241065357
 MeshCollider:
@@ -37992,7 +37996,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1794930500}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 98.061005, z: 0}
 --- !u!64 &1710438076
 MeshCollider:
@@ -38967,25 +38971,25 @@ Transform:
   - {fileID: 1654626401}
   - {fileID: 192346659}
   - {fileID: 661221476}
-  - {fileID: 1496528469}
   - {fileID: 737185094}
   - {fileID: 265152291}
+  - {fileID: 1496528469}
   - {fileID: 962928530}
   - {fileID: 1575370395}
   - {fileID: 1542679941}
-  - {fileID: 534098752}
   - {fileID: 1710438075}
   - {fileID: 1129276188}
-  - {fileID: 893013000}
+  - {fileID: 534098752}
   - {fileID: 1124778383}
   - {fileID: 400965520}
   - {fileID: 1241065356}
+  - {fileID: 893013000}
   - {fileID: 1071758029}
+  - {fileID: 210583643}
   - {fileID: 637706688}
   - {fileID: 1263157269}
   - {fileID: 286081954}
   - {fileID: 45961433}
-  - {fileID: 210583643}
   - {fileID: 604583312}
   - {fileID: 821906457}
   - {fileID: 220446751}
