@@ -103,13 +103,25 @@ namespace Infrastructure.Services
 
         private void RandomizeCurrentRoom()
         {
+            if (_currLevelInfo == null)
+            {
+                Debug.LogError("LevelInfo not found in the current scene.");
+                return;
+            }
+
+            if (_currLevelInfo.AllLevelRooms == null || _currLevelInfo.AllLevelRooms.Length == 0)
+            {
+                Debug.LogError("AllLevelRooms array is null or empty in LevelInfo. Make sure you've added Room objects to the scene and assigned them.");
+                return;
+            }
+
             int randomLevelNum = UnityEngine.Random.Range(0, _currLevelInfo.AllLevelRooms.Length);
             _currRoom = _currLevelInfo.AllLevelRooms[randomLevelNum].RoomType;
             _currLevelSize = _currLevelInfo.LevelSize;
             _currRoomTransform = _currLevelInfo.AllLevelRooms[randomLevelNum].transform;
             _mainDoors = _currLevelInfo.MainDoors;
             _lightButtons = _currLevelInfo.LightButtons;
-            //Debug.Log("curr room = " + _currRoom.ToString());
         }
+
     }
 }

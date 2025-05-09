@@ -23,12 +23,12 @@ namespace Utilities.Constants
             Big = 50,
         }
 
-        public static readonly Dictionary<SceneNames.LevelNames, LevelSize> LevelSizes
-            = new Dictionary<SceneNames.LevelNames, LevelSize>
-        {
-            {SceneNames.LevelNames.Turkwood, LevelSize.Tiny},
-            {SceneNames.LevelNames.Warehouse, LevelSize.Medium}
-        };
+        public static readonly Dictionary<SceneNames.LevelNames, int> LevelSizes = new()
+    {
+        { SceneNames.LevelNames.Turkwood, 2 },
+        { SceneNames.LevelNames.Warehouse, 3 },
+        { SceneNames.LevelNames.Abandoned, 4 }
+    };
 
         public static int MapMinHuntDuration(string levelSize)
         {

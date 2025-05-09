@@ -32,7 +32,7 @@ namespace Infrastructure.States.GameStates
         public void Enter()
         {
             _gameObjectivesService.SetUpObjectives();
-            _sceneLoader.Load(_levelSetUp.SelectedMap.ToString(), InitGameWorld);
+            _sceneLoader.Load(SceneNames.LevelNameToString[_levelSetUp.SelectedMap], InitGameWorld);
             //_sceneLoader.Load(SceneNames.LevelNames.Factory.ToString(), InitGameWorld);
         }
 
