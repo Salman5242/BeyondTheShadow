@@ -13,7 +13,7 @@ namespace Utilities.Constants
         {
             { LevelNames.Turkwood, "Turkwood" },
             { LevelNames.Warehouse, "Warehouse" },
-            { LevelNames.Abandoned, "Abandoned Factory" } // Ensure this matches your actual scene name
+            { LevelNames.Abandoned, "Abandoned Factory" } 
         };
     }
 }
