@@ -94,6 +94,7 @@ namespace Player.Movement
         {
             _inputSystem.CrouchAction -= CrouchHandle;
         }
+
         void Update()
         {
             InputMouseMove();

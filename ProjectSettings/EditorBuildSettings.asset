@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 4da07585834363346af8f2c8301f7234
   - enabled: 1
-    path: Assets/Scenes/Levels/Turkwood.unity
-    guid: 9973e969a1eb9094b8e274e115bc8211
-  - enabled: 1
     path: Assets/Scenes/Levels/Warehouse.unity
     guid: 1441f16d8da749d4089744022b3cbdaa
+  - enabled: 1
+    path: Assets/Scenes/Levels/Turkwood.unity
+    guid: 9973e969a1eb9094b8e274e115bc8211
   - enabled: 1
     path: Assets/Scenes/Levels/Abandoned Factory.unity
     guid: 0660796b08f746c43b25af9c0c0ffaf4
